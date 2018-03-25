@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WeekendLog</string>
+    <string name="place_name_hint">Place name</string>
+    <string name="address_hint">Address</string>
+    <string name="add_button_text">ADD</string>
+    <string name="default_place_name">[Place name]</string>
+    <string name="default_address">The address</string>
+    <string name="welcome">  Welcome, please select an activity!  </string>
+    <string name="resortsHotels">Resort</string>
+    <string name="amusementParks">Park</string>
+    <string name="beach">Beach</string>
+    <string name="winterActivities">Winter</string>
+    <string name="hikingLandscapes">Hiking</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="restaurants">Restaurant</string>
+    <string name="culture">Culture</string>
+    <string name="playgrounds">Playground</string>
+    <string name ="photoButton">TAKE A PHOTO</string>
+    <string name ="mapStringButton">SHOW MAP</string>
+    <string name="default_comments">Your Comments</string>
+</resources>

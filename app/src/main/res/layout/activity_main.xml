@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.bellevue.cs470.databasestorage.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#008080"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:text="@string/welcome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="3"
+        android:rowCount="6"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/resortsHotels"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/restaurants"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/nightlife"/>
+
+        <ImageView
+            android:id="@+id/resortsHotels"
+            android:src="@drawable/resorts"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"/>
+
+        <ImageView
+            android:id="@+id/restaurants"
+            android:src="@drawable/restaurant"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"/>
+
+        <ImageView
+            android:id="@+id/nightlife"
+            android:src="@drawable/nightlife"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/beach"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hikingLandscapes"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/amusementParks"/>
+
+        <ImageView
+            android:id="@+id/beach"
+            android:src="@drawable/beach"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"/>/>
+
+        <ImageView
+            android:id="@+id/hikingLandscapes"
+            android:src="@drawable/hiking"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"/>/>
+
+        <ImageView
+            android:id="@+id/waterAmusementParks"
+            android:src="@drawable/park"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"/>/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/winterActivities"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/culture"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/playgrounds"/>
+
+        <ImageView
+            android:id="@+id/winterActivities"
+            android:src="@drawable/winter"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"/>/>
+
+        <ImageView
+            android:id="@+id/culture"
+            android:src="@drawable/culture"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"/>/>
+
+        <ImageView
+            android:id="@+id/playgrounds"
+            android:src="@drawable/playground"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="3dp"/>/>
+
+    </GridLayout>
+
+</android.widget.LinearLayout>
